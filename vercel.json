@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/menu", "destination": "/menu/index.html" },
-    { "source": "/tentang", "destination": "/tentang/index.html" },
-    { "source": "/kontak", "destination": "/kontak/index.html" }
+    { "source": "/menu", "destination": "/Menu/index.html" },
+    { "source": "/tentang", "destination": "/Tentang/index.html" },
+    { "source": "/kontak", "destination": "/Kontak/index.html" }
   ]
 }
