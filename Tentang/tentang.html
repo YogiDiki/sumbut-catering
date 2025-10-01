@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Sumbut Catering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-pink-500">Sumbut Catering</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/" class="text-gray-700 hover:text-pink-500 font-medium">Beranda</a>
+                    <a href="/menu" class="text-gray-700 hover:text-pink-500 font-medium">Menu</a>
+                    <a href="/tentang" class="text-pink-500 hover:text-pink-500 font-medium">Tentang</a>
+                    <a href="/kontak" class="text-gray-700 hover:text-pink-500 font-medium">Kontak</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="/" class="block text-gray-700 hover:text-pink-500 font-medium py-2">Beranda</a>
+                <a href="/menu" class="block text-gray-700 hover:text-pink-500 font-medium py-2">Menu</a>
+                <a href="/tentang" class="block text-pink-500 hover:text-pink-500 font-medium py-2">Tentang</a>
+                <a href="/kontak" class="block text-gray-700 hover:text-pink-500 font-medium py-2">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="bg-gradient-to-r from-pink-500 to-orange-500 text-white py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Tentang Sumbut Catering</h1>
+            <p class="text-xl">Mengenal lebih dekat dengan kami</p>
+        </div>
+    </section>
+
+    <!-- Profil Perusahaan -->
+    <section class="py-16 px-4 bg-pink-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <div class="text-center mb-8">
+                    <div class="text-6xl mb-4">🍽️</div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Siapa Kami?</h2>
+                </div>
+                <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                    <strong class="text-orange-500">Sumbut Catering</strong> adalah perusahaan catering yang baru berdiri, namun didukung oleh tim profesional yang telah berpengalaman lebih dari <strong class="text-pink-500">20 tahun</strong> di industri kuliner dan catering.
+                </p>
+                <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                    Kami hadir untuk memberikan solusi terbaik dalam menyediakan hidangan berkualitas untuk berbagai kebutuhan acara, mulai dari menu karyawan harian, nasi kotak untuk event formal, hingga prasmanan untuk acara besar seperti pernikahan dan seminar.
+                </p>
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    Dengan komitmen tinggi terhadap kualitas, kebersihan, dan kepuasan pelanggan, kami siap menjadi partner terpercaya Anda dalam setiap momen spesial.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visi & Misi -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Visi & Misi Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Visi -->
+                <div class="bg-gradient-to-br from-pink-100 to-orange-100 rounded-lg p-8 shadow-lg">
+                    <div class="text-5xl mb-4 text-center">🎯</div>
+                    <h3 class="text-2xl font-bold text-orange-600 mb-4 text-center">Visi</h3>
+                    <p class="text-gray-700 text-center leading-relaxed">
+                        Menjadi penyedia layanan catering terdepan yang dipercaya untuk menghadirkan hidangan berkualitas tinggi dan pengalaman kuliner yang berkesan di setiap acara.
+                    </p>
+                </div>
+                <!-- Misi -->
+                <div class="bg-gradient-to-br from-yellow-100 to-pink-100 rounded-lg p-8 shadow-lg">
+                    <div class="text-5xl mb-4 text-center">🚀</div>
+                    <h3 class="text-2xl font-bold text-pink-600 mb-4 text-center">Misi</h3>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-pink-500 mr-2">✓</span>
+                            <span>Menyajikan menu berkualitas dengan bahan segar dan halal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-pink-500 mr-2">✓</span>
+                            <span>Memberikan pelayanan terbaik dan tepat waktu</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-pink-500 mr-2">✓</span>
+                            <span>Terus berinovasi dalam menu dan layanan</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legalitas & Sertifikasi -->
+    <section class="py-16 px-4 bg-pink-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Legalitas & Sertifikasi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- NIB -->
+                <div class="bg-white rounded-lg p-6 shadow-lg text-center hover:shadow-xl transition duration-300">
+                    <div class="text-5xl mb-4">📋</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">NIB</h3>
+                    <p class="text-gray-600">Nomor Induk Berusaha</p>
+                    <p class="text-orange-500 font-semibold mt-2">Terdaftar Resmi</p>
+                </div>
+                <!-- Sertifikat Halal -->
+                <div class="bg-white rounded-lg p-6 shadow-lg text-center hover:shadow-xl transition duration-300">
+                    <div class="text-5xl mb-4">✅</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Sertifikat Halal</h3>
+                    <p class="text-gray-600">Bersertifikat Halal MUI</p>
+                    <p class="text-green-500 font-semibold mt-2">Terjamin Halal</p>
+                </div>
+                <!-- BPJS -->
+                <div class="bg-white rounded-lg p-6 shadow-lg text-center hover:shadow-xl transition duration-300">
+                    <div class="text-5xl mb-4">🏥</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">BPJS</h3>
+                    <p class="text-gray-600">Terdaftar BPJS Ketenagakerjaan</p>
+                    <p class="text-blue-500 font-semibold mt-2">Karyawan Terlindungi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Mengapa Memilih Kami?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <div class="bg-gradient-to-br from-pink-100 to-pink-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-3">🏆</div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">20+ Tahun Pengalaman</h3>
+                    <p class="text-gray-600 text-sm">Tim berpengalaman di industri kuliner</p>
+                </div>
+                <div class="bg-gradient-to-br from-orange-100 to-orange-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-3">💯</div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Kualitas Terjamin</h3>
+                    <p class="text-gray-600 text-sm">Bahan segar dan proses higienis</p>
+                </div>
+                <div class="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-3">🚚</div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Pengiriman Tepat Waktu</h3>
+                    <p class="text-gray-600 text-sm">On-time delivery guarantee</p>
+                </div>
+                <div class="bg-gradient-to-br from-green-100 to-green-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-3">💰</div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Harga Kompetitif</h3>
+                    <p class="text-gray-600 text-sm">Kualitas premium, harga terjangkau</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-4 bg-gradient-to-r from-pink-500 to-orange-500">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Siap Berkolaborasi dengan Kami?</h2>
+            <p class="text-white text-xl mb-8">Hubungi kami sekarang untuk konsultasi gratis!</p>
+            <a href="/kontak" class="inline-block bg-white text-pink-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Hubungi Kami</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-500 text-white py-8 px-4">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-2">Sumbut Catering</h3>
+            <p class="mb-4">Solusi Hidangan untuk Segala Acara</p>
+            <p>&copy; 2025 Sumbut Catering. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6281285984320" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition duration-300 z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
