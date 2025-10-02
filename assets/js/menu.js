@@ -198,5 +198,61 @@ const menuData = [
         gradient: "from-pink-500 to-orange-500",
         badgeColor: "pink",
         priceColor: "pink"
+    },
+
+        // BGN
+    {
+        id: 17,
+        name: "Paket BGN Spesial A",
+        category: "bgn",                // <- kategori baru
+        categoryLabel: "Menu BGN",
+        description: "Nasi putih, ayam bakar madu, sambal, lalapan segar",
+        price: "Rp 35.000",
+        image: "assets/images/bgn.jpg", // pastikan file gambarnya ada
+        gradient: "from-green-400 to-green-600",
+        badgeColor: "green",
+        priceColor: "green"
+    },
+
+    {
+        id: 18,
+        name: "Paket BGN Spesial B",
+        category: "bgn",                // <- kategori baru
+        categoryLabel: "Menu BGN",
+        description: "Nasi putih, ayam bakar madu, sambal, lalapan segar",
+        price: "Rp 35.000",
+        image: "assets/images/bgn.jpg", // pastikan file gambarnya ada
+        gradient: "from-green-400 to-green-600",
+        badgeColor: "green",
+        priceColor: "green"
+    },
+
+    {
+        id: 19,
+        name: "Paket BGN Spesial C",
+        category: "bgn",                // <- kategori baru
+        categoryLabel: "Menu BGN",
+        description: "Nasi putih, ayam bakar madu, sambal, lalapan segar",
+        price: "Rp 35.000",
+        image: "assets/images/bgn.jpg", // pastikan file gambarnya ada
+        gradient: "from-green-400 to-green-600",
+        badgeColor: "green",
+        priceColor: "green"
+    },
+
+    {
+        id: 20,
+        name: "Paket BGN Spesial D",
+        category: "bgn",                // <- kategori baru
+        categoryLabel: "Menu BGN",
+        description: "Nasi putih, ayam bakar madu, sambal, lalapan segar",
+        price: "Rp 35.000",
+        image: "assets/images/bgn.jpg", // pastikan file gambarnya ada
+        gradient: "from-green-400 to-green-600",
+        badgeColor: "green",
+        priceColor: "green"
     }
+
+        
+
 ];
