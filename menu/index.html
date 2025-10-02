@@ -97,7 +97,7 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Render menu
+        // Render menu dengan gambar
         function renderMenu(category = 'semua') {
             const container = document.getElementById('menu-container');
             const filteredMenu = category === 'semua' 
@@ -106,8 +106,8 @@
 
             container.innerHTML = filteredMenu.map(item => `
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <div class="h-48 bg-gradient-to-br ${item.gradient} flex items-center justify-center">
-                        <span class="text-white text-6xl">${item.icon}</span>
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <img src="../${item.image}" alt="${item.name}" class="h-full w-full object-cover">
                     </div>
                     <div class="p-4">
                         <span class="inline-block bg-${item.badgeColor}-100 text-${item.badgeColor}-600 text-xs px-2 py-1 rounded-full mb-2">${item.categoryLabel}</span>
